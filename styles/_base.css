@@ -2,13 +2,11 @@
 /* Base Reset */
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
   
   /* Global Body Styles */
   body {
-    background-color: var(--stone-100);
     color: var(--stone-900);
     font-family: 'Outfit', sans-serif;
     line-height: 1.5;

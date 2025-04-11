@@ -2,23 +2,109 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple omelette recipe with step by step instructions">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles/main.css">
   
-  <title>Frontend Mentor | Recipe page</title>
+  <title>Simple Omelette Recipe | Frontend Mentor</title>
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <!-- Card content here -->
-    </div>
-  </div>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <main id="main-content" class="container">
+    <article class="card">
+      <img 
+        src="./assets/images/image-omelette.jpeg" 
+        alt="A golden brown omelette on a white plate, filled with fresh green vegetables" 
+        class="top-image"
+      >
+      <header>
+        <h1>Simple Omelette Recipe</h1>
+        <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+        to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+      </header>
+
+      <section aria-labelledby="prep-time-heading">
+        <h2 id="prep-time-heading">Preparation time</h2>
+        <ul>
+          <li><span class="visually-hidden">Preparation time: </span><strong>Total:</strong> Approximately 10 minutes</li>
+          <li><span class="visually-hidden">Preparation time: </span><strong>Preparation:</strong> 5 minutes</li>
+          <li><span class="visually-hidden">Preparation time: </span><strong>Cooking:</strong> 5 minutes</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="ingredients-heading">
+        <h2 id="ingredients-heading">Ingredients</h2>
+        <ul>
+          <li>2-3 large eggs</li>
+          <li>Salt, to taste</li>
+          <li>Pepper, to taste</li>
+          <li>1 tablespoon of butter or oil</li>
+          <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="instructions-heading">
+        <h2 id="instructions-heading">Instructions</h2>
+        <ol>
+          <li>
+            <h3>Beat the eggs</h3>
+            <p>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+            You can add a tablespoon of water or milk for a fluffier texture.</p>
+          </li>
+          <li>
+            <h3>Heat the pan</h3>
+            <p>Place a non-stick frying pan over medium heat and add butter or oil.</p>
+          </li>
+          <li>
+            <h3>Cook the omelette</h3>
+            <p>Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+            the eggs evenly coat the surface.</p>
+          </li>
+          <li>
+            <h3>Add fillings (optional)</h3>
+            <p>When the eggs begin to set at the edges but are still slightly runny in the 
+            middle, sprinkle your chosen fillings over one half of the omelette.</p>
+          </li>
+          <li>
+            <h3>Fold and serve</h3>
+            <p>As the omelette continues to cook, carefully lift one edge and fold it over the 
+            fillings. Let it cook for another minute, then slide it onto a plate.</p>
+          </li>
+          <li>
+            <h3>Enjoy</h3>
+            <p>Serve hot, with additional salt and pepper if needed.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="nutrition-heading">
+        <h2 id="nutrition-heading">Nutrition</h2>
+        <p>The table below shows nutritional values per serving without the additional fillings.</p>
+        
+        <div class="nutrition-table" role="table" aria-label="Nutritional information">
+          <dl>
+            <dt>Calories</dt>
+            <dd>277kcal</dd>
+            
+            <dt>Carbs</dt>
+            <dd>0g</dd>
+            
+            <dt>Protein</dt>
+            <dd>20g</dd>
+          </dl>
+        </div>
+      </section>
+    </article>
+  </main>
   
   <footer class="footer">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Weyehn Reeves</a>.
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/weyehn" target="_blank" rel="noopener">Weyehn Reeves</a>.
+    </p>
   </footer>
 </body>
 </html>
