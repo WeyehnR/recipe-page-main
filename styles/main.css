@@ -89,6 +89,19 @@ h1 {
   font-weight: 400;
   line-height: 100%;
   align-self: stretch;
+  margin-bottom: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0;
+}
+
+.recipe-description {
+  margin-top: var(--spacing-400, 32px);
+  padding-bottom: var(--spacing-200, 16px);
 }
 
 h2 {
