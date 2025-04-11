@@ -1,0 +1,52 @@
+/* Font imports and text presets */
+
+/* Font Imports */
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Text Presets */
+.text-preset-1 {
+  font-family: 'Young Serif', serif;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.text-preset-2 {
+  font-family: 'Young Serif', serif;
+  font-size: 28px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.text-preset-3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 600;
+}
+
+.text-preset-4 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.text-preset-4-bold {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+}

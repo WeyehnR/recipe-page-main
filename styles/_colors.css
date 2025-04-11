@@ -1,0 +1,44 @@
+/* Style guide colors */
+:root {
+    /* Rose */
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+  
+    /* Stone */
+    --stone-900: hsl(24, 5%, 18%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-100: hsl(30, 54%, 90%);
+  
+    /* Brown */
+    --brown-600: hsl(14, 45%, 36%);
+  
+    /* White */
+    --white: hsl(0, 0%, 100%);
+}
+  
+/* Optional utility classes */
+.bg-rose-900 { background-color: var(--rose-900); }
+.bg-rose-50  { background-color: var(--rose-50); }
+
+.bg-stone-900 { background-color: var(--stone-900); }
+.bg-stone-700 { background-color: var(--stone-700); }
+.bg-stone-500 { background-color: var(--stone-500); }
+.bg-stone-200 { background-color: var(--stone-200); }
+.bg-stone-50  { background-color: var(--stone-50); }
+
+.bg-brown-600 { background-color: var(--brown-600); }
+.bg-white     { background-color: var(--white); }
+
+.text-rose-900 { color: var(--rose-900); }
+.text-rose-50  { color: var(--rose-50); }
+
+.text-stone-900 { color: var(--stone-900); }
+.text-stone-700 { color: var(--stone-700); }
+.text-stone-500 { color: var(--stone-500); }
+.text-stone-200 { color: var(--stone-200); }
+.text-stone-50  { color: var(--stone-50); }
+
+.text-brown-600 { color: var(--brown-600); }
+.text-white     { color: var(--white); }
+  

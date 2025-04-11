@@ -1,0 +1,52 @@
+/* Margins, padding, gap utils */
+/* Generalized Spacing and some ultilies for margins and paddings */
+:root {
+    /* Spacing Scale */
+    --spacing-100: 8px;
+    --spacing-150: 12px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-1600: 128px;
+}
+
+/* You don't have to use it, you can also use the spacing above without using all the utilities, 
+   it is really up to you. 
+   I find it easier to use the variables above. */
+/* Margin Utilities */
+.m-200  { margin: var(--spacing-200); }
+.mt-200 { margin-top: var(--spacing-200); }
+.mb-200 { margin-bottom: var(--spacing-200); }
+
+.m-400  { margin: var(--spacing-400); }
+.mt-400 { margin-top: var(--spacing-400); }
+.mb-400 { margin-bottom: var(--spacing-400); }
+
+.m-600  { margin: var(--spacing-600); }
+.mt-600 { margin-top: var(--spacing-600); }
+.mb-600 { margin-bottom: var(--spacing-600); }
+
+.m-1600  { margin: var(--spacing-1600); }
+.mt-1600 { margin-top: var(--spacing-1600); }
+.mb-1600 { margin-bottom: var(--spacing-1600); }
+
+/* Padding Utilities */
+.p-200  { padding: var(--spacing-200); }
+.pt-200 { padding-top: var(--spacing-200); }
+.pb-200 { padding-bottom: var(--spacing-200); }
+
+.p-400  { padding: var(--spacing-400); }
+.pt-400 { padding-top: var(--spacing-400); }
+.pb-400 { padding-bottom: var(--spacing-400); }
+
+.p-600  { padding: var(--spacing-600); }
+.pt-600 { padding-top: var(--spacing-600); }
+.pb-600 { padding-bottom: var(--spacing-600); }
+
+.p-1600  { padding: var(--spacing-1600); }
+.pt-1600 { padding-top: var(--spacing-1600); }
+.pb-1600 { padding-bottom: var(--spacing-1600); }
+
+  
